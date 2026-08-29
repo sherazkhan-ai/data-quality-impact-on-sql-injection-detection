@@ -1,5 +1,20 @@
 # 🔐 Data Quality Impact on SQL Injection Detection
+
 ### Comparative Deep Learning Study Using CNN, LSTM & Transformer-Based Models
+
+<p align="center">
+
+**CNN • LSTM • BERT • NLP • Deep Learning • Cybersecurity**
+
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/TensorFlow-Deep%20Learning-orange?logo=tensorflow&logoColor=white" alt="TensorFlow">
+  <img src="https://img.shields.io/badge/Keras-Neural%20Networks-red?logo=keras&logoColor=white" alt="Keras">
+  <img src="https://img.shields.io/badge/NLP-Text%20Classification-purple" alt="NLP">
+  <img src="https://img.shields.io/badge/Cybersecurity-SQL%20Injection-black" alt="Cybersecurity">
+</p>
 
 An experimental study investigating the use of **deep learning for SQL injection detection** and, more importantly, examining how **data quality issues can affect machine-learning model performance**.
 
