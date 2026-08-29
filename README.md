@@ -108,26 +108,32 @@ The research design used separate training/testing procedures and standard evalu
 
 # 📊 Dataset
 
-The project uses a dataset of approximately **30,900 SQL queries**, containing both malicious and normal queries.
+The project uses a dataset of approximately **30,900 SQL queries**, containing both malicious and normal SQL queries.
 
-The prototype notebook shows the dataset being loaded into a Pandas DataFrame with:
+The dataset contains two primary fields:
 
-* `Query` — SQL query text
-* `Label` — classification label
+| Field | Description |
+|---|---|
+| `Query` | SQL query text |
+| `Label` | Classification label indicating the query category |
 
-The prototype contains **19,537 normal queries** and **11,382 malicious queries**.
+The prototype notebook contains:
 
-### Dataset distribution
+- **19,537 normal queries**
+- **11,382 malicious queries**
+- **30,919 total queries**
 
-| Class     |    Samples |
-| --------- | ---------: |
-| Normal    |     19,537 |
-| Malicious |     11,382 |
-| **Total** | **30,919** |
+The dataset was obtained from an external GitHub source and is **not included in this repository**.
 
-> **Note:** The research report describes the dataset as approximately 30,900 queries; the prototype notebook's actual label counts sum to 30,919.
+### Dataset Availability
 
-The original dataset was obtained from an external source. The dataset itself is **not included in this repository**.
+The original dataset source should be obtained from the source repository used during the research.
+
+> **Note:** The original dataset URL is intentionally not hard-coded here until the exact source repository is verified. This avoids pointing users to an incorrect or unrelated dataset.
+
+### Data Distribution
+
+The dataset contains both legitimate and malicious SQL queries, providing the binary classification basis for the SQL injection detection experiments.
 
 ---
 
