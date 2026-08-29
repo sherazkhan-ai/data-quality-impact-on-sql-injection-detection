@@ -20,6 +20,28 @@ The dataset contains approximately **30,900 SQL queries**, categorized as malici
 
 ---
 
+## 📊 Key Results
+
+The comparative experiments produced the following reported results:
+
+| Model    |   Accuracy |  Precision |     Recall |   F1-Score |
+| -------- | ---------: | ---------: | ---------: | ---------: |
+| **CNN**  | **99.58%** | **99.87%** |     99.00% | **99.43%** |
+| **LSTM** | **99.37%** |     99.21% | **99.08%** |     99.15% |
+| **BERT** |     71.28% |     69.25% | **99.00%** |     82.15% |
+
+### Key Findings
+
+* 🥇 **CNN** achieved the strongest overall reported performance with **99.58% accuracy** and **99.43% F1-score**.
+* 🥈 **LSTM** achieved similarly strong performance with **99.37% accuracy** and **99.15% F1-score**.
+* 🔎 **BERT** achieved **99.00% recall**, but its accuracy and precision were substantially lower in this experimental setup.
+* 🧪 Data-quality experiments demonstrated that missing values and noise can significantly affect model behavior.
+* 🧹 Appropriate preprocessing and data-quality handling were therefore an important part of the overall detection pipeline.
+
+The results illustrate that model architecture and data quality both play important roles in the performance of AI-based SQL injection detection systems.
+
+---
+
 ## 🎯 Objectives
 
 * Develop and evaluate a CNN-based SQL injection detection model.
