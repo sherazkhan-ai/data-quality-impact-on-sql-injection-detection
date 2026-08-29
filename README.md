@@ -295,6 +295,16 @@ This reinforced one of the central conclusions of the project:
 
 ---
 
+# 🚀 How to Run
+
+## 1. Clone the Repository
+
+
+git clone https://github.com/sherazkhan-ai/data-quality-impact-on-sql-injection-detection.git
+cd data-quality-impact-on-sql-injection-detection
+
+---
+
 # 🧰 Technologies & Tools
 
 ### Programming
